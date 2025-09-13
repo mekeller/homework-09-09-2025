@@ -10,7 +10,7 @@ Read me instructions on how to launch an EC2 with teardown instructions.
 
 
 
-1. Create a security group.
+  Create a security group.
 
 * Click EC2. Scroll down to the "Network and Security" section and click "Security Groups"
 * Click the orange button "Create security group"
@@ -24,7 +24,7 @@ Read me instructions on how to launch an EC2 with teardown instructions.
 
 
 
-2\. Launch EC2 instance.
+  Launch EC2 instance.
 
 * Click EC2. Scroll down to the "Instances" section and click "Instances".
 * Click the orange button "Launch instances".
@@ -43,13 +43,13 @@ Read me instructions on how to launch an EC2 with teardown instructions.
 
 
 
-
-3\. Tear down EC2 instance.
+  Tear down EC2 instance.
 
 * Click EC2. Scroll to the "Instances" section, and click "Instances".
 * Locate the "Name" field, which will have the name of your instance you created. Click the box to highlight the instance.
 * Click the blue bubble named "Instance state" and select "Terminate (delete) instance". A small window will pop up named "Terminate (delete) instance". Click the orange button "Terminate (delete)".
 * In the "Instance state" section, it previously showed a green check mark with green words "running", but it should now read in grey words "Shutting-down". Give it a minute and it should now in grey words say "Terminated". 
+
 
 
 
